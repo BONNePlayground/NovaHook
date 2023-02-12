@@ -1,0 +1,19 @@
+# Protection flags that are used in current addon.
+protection:
+  flags:
+    # This flag allows to switch which island member group can interact with Nova Machines.
+    NOVA_INTERACTION_PROTECTION:
+      name: "Nova Machine Interaction"
+      description: |-
+        &a Select who can interact with
+        &a Nova Machines.
+      icon: FURNACE
+      hint: "&c You do not have access to interact with machine"
+    # This flag allows to switch which island member group can use Nova Items.
+    NOVA_USE_PROTECTION:
+      name: "Nova Item Use"
+      description: |-
+        &a Select who can use
+        &a Nova Items.
+      icon: WOODEN_PICKAXE
+      hint: "&c You do not have access to use this item"

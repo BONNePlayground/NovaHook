@@ -1,0 +1,12 @@
+name: NovaHook
+main: lv.id.bonne.novahook.NovaHookAddon
+version: ${version}${build.number}
+api-version: ${bentobox.version}
+repository: 'BONNePlayground/NovaHook'
+metrics: true
+icon: BEACON
+
+authors:
+  - BONNe
+
+softdepend: AcidIsland, AOneBlock, BSkyBlock, CaveBlock, SkyGrid, Boxed
