@@ -3,6 +3,7 @@ package lv.id.bonne.novahook;
 
 import org.bukkit.Material;
 
+import lv.id.bonne.novahook.listeners.IslandDeleteListener;
 import lv.id.bonne.novahook.protection.NovaProtectionIntegration;
 import world.bentobox.bentobox.api.addons.Addon;
 import world.bentobox.bentobox.api.flags.Flag;
@@ -55,6 +56,8 @@ public final class NovaHookAddon extends Addon
 
         // Register nova protection
         Nova.getNova().registerProtectionIntegration(new NovaProtectionIntegration());
+
+        this.registerListener(new IslandDeleteListener());
     }
 
 
