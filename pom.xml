@@ -14,7 +14,7 @@
 	<description>This is simple BentoBox addon that allows to hook into Nova Plugin.</description>
 
 	<url>https://github.com/BONNePlayground/NovaHook</url>
-	<inceptionYear>2021</inceptionYear>
+	<inceptionYear>2023</inceptionYear>
 
 	<scm>
 		<connection>scm:git:https://github.com/BONNePlayground/NovaHook.git</connection>
@@ -54,7 +54,7 @@
 		<!-- Revision variable removes warning about dynamic version -->
 		<revision>${build.version}-SNAPSHOT</revision>
 		<!-- This allows to change between versions and snapshots. -->
-		<build.version>1.0.0</build.version>
+		<build.version>1.1.0</build.version>
 		<build.number>-LOCAL</build.number>
 	</properties>
 
